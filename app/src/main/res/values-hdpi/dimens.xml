@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 185px map to 123.33dp in hdpi -->
+    <dimen name="fragment_main_gridview_column_width">123.33dp</dimen>
+    <dimen name="grid_posters_cell_layout_width">123.33dp</dimen>
+    <!-- Aspect ratio is 1:1.5 -->
+    <dimen name="grid_posters_cell_layout_height">185dp</dimen>
+</resources>

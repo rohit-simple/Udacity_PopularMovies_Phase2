@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <string name="title_activity_main">Popular Movies</string>
+    <string name="title_activity_settings">Settings Screen</string>
+    <string name="title_activity_movie_details">Movie Details</string>
+
+    <string name="main_activity_fragment_toast_internet_connectivity_prob">Unable to read from server!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_sort_by_label">Sort By</string>
+    <string name="action_sort_by_key" translatable="false">sort_by</string>
+    <string name="action_sort_by_entry_most_popular">Most Popular</string>
+    <string name="action_sort_by_entry_highest_rated">Highest Rated</string>
+    <string name="action_sort_by_entry_favorites">Favorites</string>
+    <string name="action_sort_by_value_most_popular" translatable="false">mp</string>
+    <string name="action_sort_by_value_highest_rated" translatable="false">hr</string>
+    <string name="action_sort_by_value_favorites">fav</string>
+    <string name="action_sort_by_default" translatable="false">mp</string>
+
+    <string name="fragment_movie_details_poster_content">Poster</string>
+    <string name="fragment_movie_details_release_date_label">Release Date:</string>
+    <string name="fragment_movie_details_rating_label">Rating:</string>
+    <string name="fragment_movie_details_overview">Overview</string>
+    <string name="fragment_movie_details_no_overview"><i>No overview found</i></string>
+    <string name="fragment_movie_details_fav_button_mark">MARK AS FAVORITE</string>
+    <string name="fragment_movie_details_fav_button_unmark">REMOVE FROM FAVORITES</string>
+    <string name="fragment_movie_details_show"><b>Show</b></string>
+    <string name="fragment_movie_details_hide"><b>Hide</b></string>
+    <string name="fragment_movie_details_one_trailer">Trailer</string>
+    <string name="fragment_movie_details_many_trailer">Trailers</string>
+    <string name="fragment_movie_details_downloading_trailers">Downloading Trailers&#8230;</string>
+    <string name="fragment_movie_details_no_trailers"><i>No Trailers</i></string>
+    <string name="fragment_movie_details_one_review">Review</string>
+    <string name="fragment_movie_details_many_review">Reviews</string>
+    <string name="fragment_movie_details_downloading_reviews">Downloading Reviews&#8230;</string>
+    <string name="fragment_movie_details_no_reviews"><i>No Reviews</i></string>
+    <string name="fragment_movie_details_author_details_by">- By</string>
+
+    <string name="activity_movie_details_toast_unable_to_read_info_from_previous_screen">Unable to read info from previous screen :(\nPlease go back and try again</string>
+    <string name="activity_movie_details_tab_home">Home</string>
+    <string name="activity_movie_details_tab_trailers">Trailers</string>
+    <string name="activity_movie_details_tab_reviews">Reviews</string>
+
+    <string name="toast_favorite_movie_save_successful">Successfully saved as your favorite movie :)</string>
+    <string name="toast_favorite_movie_save_unsuccessful">Facing some problem in saving your favorite movie :(</string>
+    <string name="toast_favorite_movie_delete_successful">Removed this boring movie from your favorites ;)</string>
+    <string name="toast_favorite_movie_delete_unsuccessful">Facing some problem in removing this movie from your favorites :(</string>
+
+    <string name="extra_settings_sort_by" translatable="false">sort_by</string>
+
+    <string name="extra_original_title" translatable="false">original_title</string>
+    <string name="extra_overview" translatable="false">overview</string>
+    <string name="extra_release_date" translatable="false">release_date</string>
+    <string name="extra_poster_path" translatable="false">poster_path</string>
+    <string name="extra_vote_average" translatable="false">vote_average</string>
+    <string name="extra_movie_id" translatable="false">movie_id</string>
+    <string name="extra_poster_bitmap" translatable="false">poster_bitmap</string>
+    <string name="extra_is_favorite_movie" translatable="false">is_favorite_movie</string>
+
+    <string name="movies_service_broadcast_action" translatable="false">com.app.rohit.popularmovies.service.MoviesDownloadService</string>
+    <string name="reviews_service_broadcast_action" translatable="false">com.app.rohit.popularmovies.service.ReviewsDownloadService</string>
+    <string name="trailers_service_broadcast_action" translatable="false">com.app.rohit.popularmovies.service.TrailersDownloadService</string>
+
+    <string name="extra_service_data_status" translatable="false">service_data_status</string>
+    <string name="extra_service_status" translatable="false">service_status</string>
+    <string name="extra_service_data" translatable="false">service_data</string>
+
+    <string name="fragment_movie_details_no_movieid_text">Click some movie to see its details</string>
+
+
+    <string-array name="action_sort_by_entries">
+        <item>@string/action_sort_by_entry_most_popular</item>
+        <item>@string/action_sort_by_entry_highest_rated</item>
+        <item>@string/action_sort_by_entry_favorites</item>
+    </string-array>
+
+    <string-array name="action_sort_by_values">
+        <item>@string/action_sort_by_value_most_popular</item>
+        <item>@string/action_sort_by_value_highest_rated</item>
+        <item>@string/action_sort_by_value_favorites</item>
+    </string-array>
+
+</resources>

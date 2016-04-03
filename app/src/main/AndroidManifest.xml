@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.rohit.popularmovies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".main.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".service.MoviesDownloadService"
+            android:exported="false">
+        </service>
+
+        <service
+            android:name=".service.ReviewsDownloadService"
+            android:exported="false">
+        </service>
+
+        <service android:name=".service.TrailersDownloadService"
+            android:exported="false">
+        </service>
+
+        <provider
+            android:authorities="com.app.rohit.popularmovies.provider"
+            android:name=".database.FavoriteMoviesContentProvider"
+            android:exported="false">
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fragment_main_gridview_vertical_spacing">10dp</dimen>
+    <dimen name="fragment_main_gridview_horizontal_spacing">10dp</dimen>
+    <dimen name="fragment_main_gridview_column_width">150dp</dimen>
+
+    <dimen name="grid_posters_cell_layout_width">150dp</dimen>
+    <dimen name="grid_posters_cell_layout_height">225dp</dimen> <!-- aspect ratio is 1:1.5 -->
+
+    <dimen name="label_content_separation">10dp</dimen>
+    <dimen name="label_size">18sp</dimen>
+    <dimen name="review_cells_extra_gap">10dp</dimen>
+
+    <dimen name="fragment_movie_details_title_size">24sp</dimen>
+    <dimen name="fragment_movie_details_margin_from_title">20dp</dimen>
+    <dimen name="fragment_movie_details_vertical_gap">20dp</dimen>
+
+    <dimen name="fragment_movie_details_no_movie_id_text_size">40sp</dimen>
+</resources>

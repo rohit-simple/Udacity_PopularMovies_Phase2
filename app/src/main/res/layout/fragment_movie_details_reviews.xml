@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/movie_details_reviews_list_view"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Large.Inverse"
+        android:layout_gravity="center"
+        android:id="@+id/movie_details_reviews_loading"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/i_have_no_idea"
+        android:visibility="gone"
+        android:id="@+id/movie_details_reviews_no_content"/>
+
+</FrameLayout>
